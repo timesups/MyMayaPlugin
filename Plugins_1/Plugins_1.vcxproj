@@ -126,7 +126,7 @@
       <AdditionalLibraryDirectories>C:\Program Files\Autodesk\Maya2018\lib</AdditionalLibraryDirectories>
       <AdditionalOptions>/export:initializePlugin /export:uninitializePlugin %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>Foundation.lib
-;OpenMaya.lib;%(AdditionalDependencies)</AdditionalDependencies>
+;OpenMaya.lib;OpenMayaUI.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy $(TargetPath) "C:\Users\97865\Documents\maya\2018\plug-ins\$(TargetName)$(TargetExt)" /b /y</Command>
@@ -149,7 +149,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\Program Files\Autodesk\Maya2018\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>Foundation.lib
-;OpenMaya.lib;%(AdditionalDependencies)</AdditionalDependencies>
+;OpenMaya.lib;OpenMayaUI.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/export:initializePlugin /export:uninitializePlugin %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>

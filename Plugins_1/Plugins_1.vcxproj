@@ -157,6 +157,8 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HelloWorldDrawOverride.cpp" />
+    <ClCompile Include="HelloWorldDrawOverride.h" />
     <ClCompile Include="HelloWordCommand.cpp" />
     <ClCompile Include="HelloWOrdNode.cpp" />
     <ClCompile Include="main.cpp" />
